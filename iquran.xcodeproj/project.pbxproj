@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		24238BD6C48F58E732768639 /* Pods_iquran_iquranUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DB36905B1E46FDBD66C424 /* Pods_iquran_iquranUITests.framework */; };
+		4E44FB5D2B9D591F00AF3BF7 /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44FB5C2B9D591F00AF3BF7 /* Apis.swift */; };
+		4E44FB602B9D61DD00AF3BF7 /* UtilsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44FB5F2B9D61DD00AF3BF7 /* UtilsExtension.swift */; };
 		4EC7A3F32B9CC30200109571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A3F22B9CC30200109571 /* AppDelegate.swift */; };
 		4EC7A3F72B9CC30200109571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A3F62B9CC30200109571 /* ViewController.swift */; };
 		4EC7A3FC2B9CC30300109571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC7A3FB2B9CC30300109571 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		11317F68C13348ACB67ECCFD /* Pods-iquran-iquranUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran-iquranUITests.release.xcconfig"; path = "Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests.release.xcconfig"; sourceTree = "<group>"; };
 		26DB36905B1E46FDBD66C424 /* Pods_iquran_iquranUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iquran_iquranUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E44FB5C2B9D591F00AF3BF7 /* Apis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
+		4E44FB5F2B9D61DD00AF3BF7 /* UtilsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsExtension.swift; sourceTree = "<group>"; };
 		4EC7A3EF2B9CC30200109571 /* iquran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iquran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC7A3F22B9CC30200109571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC7A3F62B9CC30200109571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		4E3CA44C2B9CCA3500577111 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				4E44FB612B9D6CD000AF3BF7 /* DetailSurat */,
 				4E3CA4542B9CCB1F00577111 /* Main */,
 			);
 			path = Screens;
@@ -158,6 +163,7 @@
 				4E3CA44E2B9CCA6400577111 /* Request */,
 				4E3CA4502B9CCA7C00577111 /* Models */,
 				4E3CA44F2B9CCA6B00577111 /* Services */,
+				4E44FB5C2B9D591F00AF3BF7 /* Apis.swift */,
 			);
 			path = Apis;
 			sourceTree = "<group>";
@@ -165,9 +171,32 @@
 		4E3CA4542B9CCB1F00577111 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4E44FB622B9D706300AF3BF7 /* Components */,
 				4EC7A3F62B9CC30200109571 /* ViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		4E44FB5E2B9D61C300AF3BF7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4E44FB5F2B9D61DD00AF3BF7 /* UtilsExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4E44FB612B9D6CD000AF3BF7 /* DetailSurat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailSurat;
+			sourceTree = "<group>";
+		};
+		4E44FB622B9D706300AF3BF7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		4EC7A3E62B9CC30200109571 = {
@@ -195,6 +224,7 @@
 		4EC7A3F12B9CC30200109571 /* iquran */ = {
 			isa = PBXGroup;
 			children = (
+				4E44FB5E2B9D61C300AF3BF7 /* Utils */,
 				4E3CA4532B9CCADB00577111 /* Apis */,
 				4E3CA44D2B9CCA5800577111 /* Usecases */,
 				4E3CA44C2B9CCA3500577111 /* Screens */,
@@ -471,7 +501,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E44FB5D2B9D591F00AF3BF7 /* Apis.swift in Sources */,
 				4EC7A3F72B9CC30200109571 /* ViewController.swift in Sources */,
+				4E44FB602B9D61DD00AF3BF7 /* UtilsExtension.swift in Sources */,
 				4EC7A3F32B9CC30200109571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,6 +682,8 @@
 				DEVELOPMENT_TEAM = 276H2F73WL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iquran/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iquran;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -683,6 +717,8 @@
 				DEVELOPMENT_TEAM = 276H2F73WL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iquran/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iquran;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

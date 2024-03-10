@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     let mview: UIView = {
         let ctx = UIView()
-        ctx.backgroundColor = .orange
+        ctx.backgroundColor = .cColorbasegray
         return ctx
     }()
 
@@ -23,14 +23,26 @@ class ViewController: UIViewController {
         setuplayout()
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        setuplayoutTopSafeArea()
+    }
+    
     private func setuplayout() {
         self.view.addSubview(mview)
-        mview.snp.makeConstraints { make in
-            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0))
+    }
+    
+    private func setuplayoutTopSafeArea() {
+        mview.snp.remakeConstraints { make in
+            let topEdgeInset: CGFloat = UIApplication.topSafeArea()
+            make.top.equalTo(self.view.snp.top).inset(UIEdgeInsets(top: topEdgeInset, left: 0, bottom: 0, right: 0))
+            make.bottom.equalTo(self.view.snp.bottom)
+            make.left.equalTo(self.view.snp.left)
+            make.right.equalTo(self.view.snp.right)
         }
     }
     
     private func setuplayoutbase() {
-        self.view.backgroundColor = .systemPink
+        self.view.backgroundColor = .cColorbasegreen
     }
 }
