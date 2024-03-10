@@ -1,0 +1,6 @@
+framework module Pods_iquranTests {
+  umbrella header "Pods-iquranTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

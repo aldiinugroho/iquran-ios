@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24238BD6C48F58E732768639 /* Pods_iquran_iquranUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DB36905B1E46FDBD66C424 /* Pods_iquran_iquranUITests.framework */; };
 		4EC7A3F32B9CC30200109571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A3F22B9CC30200109571 /* AppDelegate.swift */; };
-		4EC7A3F52B9CC30200109571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A3F42B9CC30200109571 /* SceneDelegate.swift */; };
 		4EC7A3F72B9CC30200109571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A3F62B9CC30200109571 /* ViewController.swift */; };
-		4EC7A3FA2B9CC30200109571 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4EC7A3F92B9CC30200109571 /* Base */; };
 		4EC7A3FC2B9CC30300109571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC7A3FB2B9CC30300109571 /* Assets.xcassets */; };
 		4EC7A3FF2B9CC30300109571 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4EC7A3FE2B9CC30300109571 /* Base */; };
 		4EC7A40A2B9CC30400109571 /* iquranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A4092B9CC30400109571 /* iquranTests.swift */; };
 		4EC7A4142B9CC30400109571 /* iquranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A4132B9CC30400109571 /* iquranUITests.swift */; };
 		4EC7A4162B9CC30400109571 /* iquranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A4152B9CC30400109571 /* iquranUITestsLaunchTests.swift */; };
+		7282D76642930529A0E26B10 /* Pods_iquranTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBE94D7DE873996013A4E52 /* Pods_iquranTests.framework */; };
+		DF1C6E59F98C89338622B0BA /* Pods_iquran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9959515D19B40CC80C3F0DD0 /* Pods_iquran.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11317F68C13348ACB67ECCFD /* Pods-iquran-iquranUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran-iquranUITests.release.xcconfig"; path = "Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26DB36905B1E46FDBD66C424 /* Pods_iquran_iquranUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iquran_iquranUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC7A3EF2B9CC30200109571 /* iquran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iquran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC7A3F22B9CC30200109571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EC7A3F42B9CC30200109571 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4EC7A3F62B9CC30200109571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EC7A3F92B9CC30200109571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EC7A3FB2B9CC30300109571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC7A3FE2B9CC30300109571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC7A4002B9CC30300109571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,13 @@
 		4EC7A40F2B9CC30400109571 /* iquranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iquranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC7A4132B9CC30400109571 /* iquranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iquranUITests.swift; sourceTree = "<group>"; };
 		4EC7A4152B9CC30400109571 /* iquranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iquranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57243DA602B4B8FCDDDD8BDF /* Pods-iquranTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquranTests.release.xcconfig"; path = "Target Support Files/Pods-iquranTests/Pods-iquranTests.release.xcconfig"; sourceTree = "<group>"; };
+		643E6A93214B7CB8463F7498 /* Pods-iquran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran.release.xcconfig"; path = "Target Support Files/Pods-iquran/Pods-iquran.release.xcconfig"; sourceTree = "<group>"; };
+		67D82BF2DB16908850E777BE /* Pods-iquran-iquranUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran-iquranUITests.debug.xcconfig"; path = "Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86F2E9DC36CFB364B95D7452 /* Pods-iquranTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquranTests.debug.xcconfig"; path = "Target Support Files/Pods-iquranTests/Pods-iquranTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9959515D19B40CC80C3F0DD0 /* Pods_iquran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iquran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141AD41CEECB80CDFF902AA /* Pods-iquran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran.debug.xcconfig"; path = "Target Support Files/Pods-iquran/Pods-iquran.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBE94D7DE873996013A4E52 /* Pods_iquranTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iquranTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1C6E59F98C89338622B0BA /* Pods_iquran.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7282D76642930529A0E26B10 /* Pods_iquranTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +80,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24238BD6C48F58E732768639 /* Pods_iquran_iquranUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45CFFFDB2161ABE37BF07FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A141AD41CEECB80CDFF902AA /* Pods-iquran.debug.xcconfig */,
+				643E6A93214B7CB8463F7498 /* Pods-iquran.release.xcconfig */,
+				67D82BF2DB16908850E777BE /* Pods-iquran-iquranUITests.debug.xcconfig */,
+				11317F68C13348ACB67ECCFD /* Pods-iquran-iquranUITests.release.xcconfig */,
+				86F2E9DC36CFB364B95D7452 /* Pods-iquranTests.debug.xcconfig */,
+				57243DA602B4B8FCDDDD8BDF /* Pods-iquranTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E3CA44C2B9CCA3500577111 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4E3CA4542B9CCB1F00577111 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4E3CA44D2B9CCA5800577111 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		4E3CA44E2B9CCA6400577111 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E3CA44F2B9CCA6B00577111 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4E3CA4502B9CCA7C00577111 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E3CA4522B9CCA8D00577111 /* Response */,
+				4E3CA4512B9CCA8700577111 /* Request */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E3CA4512B9CCA8700577111 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4E3CA4522B9CCA8D00577111 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		4E3CA4532B9CCADB00577111 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				4E3CA44E2B9CCA6400577111 /* Request */,
+				4E3CA4502B9CCA7C00577111 /* Models */,
+				4E3CA44F2B9CCA6B00577111 /* Services */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		4E3CA4542B9CCB1F00577111 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4EC7A3F62B9CC30200109571 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		4EC7A3E62B9CC30200109571 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,8 @@
 				4EC7A4082B9CC30400109571 /* iquranTests */,
 				4EC7A4122B9CC30400109571 /* iquranUITests */,
 				4EC7A3F02B9CC30200109571 /* Products */,
+				45CFFFDB2161ABE37BF07FEE /* Pods */,
+				A9715FACC7A0F1884ACC7A4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +195,10 @@
 		4EC7A3F12B9CC30200109571 /* iquran */ = {
 			isa = PBXGroup;
 			children = (
+				4E3CA4532B9CCADB00577111 /* Apis */,
+				4E3CA44D2B9CCA5800577111 /* Usecases */,
+				4E3CA44C2B9CCA3500577111 /* Screens */,
 				4EC7A3F22B9CC30200109571 /* AppDelegate.swift */,
-				4EC7A3F42B9CC30200109571 /* SceneDelegate.swift */,
-				4EC7A3F62B9CC30200109571 /* ViewController.swift */,
-				4EC7A3F82B9CC30200109571 /* Main.storyboard */,
 				4EC7A3FB2B9CC30300109571 /* Assets.xcassets */,
 				4EC7A3FD2B9CC30300109571 /* LaunchScreen.storyboard */,
 				4EC7A4002B9CC30300109571 /* Info.plist */,
@@ -127,6 +223,16 @@
 			path = iquranUITests;
 			sourceTree = "<group>";
 		};
+		A9715FACC7A0F1884ACC7A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9959515D19B40CC80C3F0DD0 /* Pods_iquran.framework */,
+				26DB36905B1E46FDBD66C424 /* Pods_iquran_iquranUITests.framework */,
+				ACBE94D7DE873996013A4E52 /* Pods_iquranTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC7A4192B9CC30400109571 /* Build configuration list for PBXNativeTarget "iquran" */;
 			buildPhases = (
+				5A620197C113781760560B53 /* [CP] Check Pods Manifest.lock */,
 				4EC7A3EB2B9CC30200109571 /* Sources */,
 				4EC7A3EC2B9CC30200109571 /* Frameworks */,
 				4EC7A3ED2B9CC30200109571 /* Resources */,
+				D30FBC3EC524F54F24BEB74C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC7A41C2B9CC30400109571 /* Build configuration list for PBXNativeTarget "iquranTests" */;
 			buildPhases = (
+				A0CD510F093A40057A283DAF /* [CP] Check Pods Manifest.lock */,
 				4EC7A4012B9CC30400109571 /* Sources */,
 				4EC7A4022B9CC30400109571 /* Frameworks */,
 				4EC7A4032B9CC30400109571 /* Resources */,
@@ -169,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC7A41F2B9CC30400109571 /* Build configuration list for PBXNativeTarget "iquranUITests" */;
 			buildPhases = (
+				03FCF154F2DA501FA4D94811 /* [CP] Check Pods Manifest.lock */,
 				4EC7A40B2B9CC30400109571 /* Sources */,
 				4EC7A40C2B9CC30400109571 /* Frameworks */,
 				4EC7A40D2B9CC30400109571 /* Resources */,
+				49A4A82E959E31438125E2A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +344,6 @@
 			files = (
 				4EC7A3FC2B9CC30300109571 /* Assets.xcassets in Resources */,
 				4EC7A3FF2B9CC30300109571 /* Base in Resources */,
-				4EC7A3FA2B9CC30200109571 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +363,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03FCF154F2DA501FA4D94811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iquran-iquranUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A4A82E959E31438125E2A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A620197C113781760560B53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iquran-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CD510F093A40057A283DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iquranTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30FBC3EC524F54F24BEB74C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iquran/Pods-iquran-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iquran/Pods-iquran-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iquran/Pods-iquran-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EC7A3EB2B9CC30200109571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +473,6 @@
 			files = (
 				4EC7A3F72B9CC30200109571 /* ViewController.swift in Sources */,
 				4EC7A3F32B9CC30200109571 /* AppDelegate.swift in Sources */,
-				4EC7A3F52B9CC30200109571 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +509,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4EC7A3F82B9CC30200109571 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EC7A3F92B9CC30200109571 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4EC7A3FD2B9CC30300109571 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +557,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -368,7 +572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +620,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,6 +641,7 @@
 		};
 		4EC7A41A2B9CC30400109571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A141AD41CEECB80CDFF902AA /* Pods-iquran.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,9 +652,9 @@
 				INFOPLIST_FILE = iquran/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +662,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nugroho.iquran;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,6 +674,7 @@
 		};
 		4EC7A41B2B9CC30400109571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643E6A93214B7CB8463F7498 /* Pods-iquran.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,9 +685,9 @@
 				INFOPLIST_FILE = iquran/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +695,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nugroho.iquran;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,6 +707,7 @@
 		};
 		4EC7A41D2B9CC30400109571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F2E9DC36CFB364B95D7452 /* Pods-iquranTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +728,7 @@
 		};
 		4EC7A41E2B9CC30400109571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57243DA602B4B8FCDDDD8BDF /* Pods-iquranTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +749,7 @@
 		};
 		4EC7A4202B9CC30400109571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D82BF2DB16908850E777BE /* Pods-iquran-iquranUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +768,7 @@
 		};
 		4EC7A4212B9CC30400109571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11317F68C13348ACB67ECCFD /* Pods-iquran-iquranUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
