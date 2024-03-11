@@ -19,6 +19,7 @@
 		4EC7A40A2B9CC30400109571 /* iquranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A4092B9CC30400109571 /* iquranTests.swift */; };
 		4EC7A4142B9CC30400109571 /* iquranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A4132B9CC30400109571 /* iquranUITests.swift */; };
 		4EC7A4162B9CC30400109571 /* iquranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7A4152B9CC30400109571 /* iquranUITestsLaunchTests.swift */; };
+		4EC98CBF2B9EF11600CA41C0 /* MainLv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC98CBE2B9EF11600CA41C0 /* MainLv.swift */; };
 		7282D76642930529A0E26B10 /* Pods_iquranTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBE94D7DE873996013A4E52 /* Pods_iquranTests.framework */; };
 		DF1C6E59F98C89338622B0BA /* Pods_iquran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9959515D19B40CC80C3F0DD0 /* Pods_iquran.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		4EC7A40F2B9CC30400109571 /* iquranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iquranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC7A4132B9CC30400109571 /* iquranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iquranUITests.swift; sourceTree = "<group>"; };
 		4EC7A4152B9CC30400109571 /* iquranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iquranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EC98CBE2B9EF11600CA41C0 /* MainLv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLv.swift; sourceTree = "<group>"; };
 		57243DA602B4B8FCDDDD8BDF /* Pods-iquranTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquranTests.release.xcconfig"; path = "Target Support Files/Pods-iquranTests/Pods-iquranTests.release.xcconfig"; sourceTree = "<group>"; };
 		643E6A93214B7CB8463F7498 /* Pods-iquran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran.release.xcconfig"; path = "Target Support Files/Pods-iquran/Pods-iquran.release.xcconfig"; sourceTree = "<group>"; };
 		67D82BF2DB16908850E777BE /* Pods-iquran-iquranUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iquran-iquranUITests.debug.xcconfig"; path = "Target Support Files/Pods-iquran-iquranUITests/Pods-iquran-iquranUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				4E44FB672B9DA18B00AF3BF7 /* MainDisplayer.swift */,
+				4EC98CBE2B9EF11600CA41C0 /* MainLv.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E44FB662B9D7DDE00AF3BF7 /* CHeaderTitle.swift in Sources */,
+				4EC98CBF2B9EF11600CA41C0 /* MainLv.swift in Sources */,
 				4E44FB5D2B9D591F00AF3BF7 /* Apis.swift in Sources */,
 				4E44FB682B9DA18B00AF3BF7 /* MainDisplayer.swift in Sources */,
 				4EC7A3F72B9CC30200109571 /* ViewController.swift in Sources */,

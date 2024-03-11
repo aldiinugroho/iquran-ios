@@ -44,6 +44,7 @@ class BodyMain: UIView {
     }()
     
     let maindisplayer: MainDisplayer = MainDisplayer()
+    var mainlv: MainLv = MainLv()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -61,6 +62,14 @@ class BodyMain: UIView {
             make.top.equalTo(ccheader.snp.bottom)
             make.width.equalTo(self.snp.width)
             make.height.equalTo(self.snp.width).multipliedBy(0.45)
+        }
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        self.addSubview(mainlv)
+        mainlv.snp.makeConstraints { make in
+            make.top.equalTo(maindisplayer.snp.bottom)
+            make.width.equalTo(self.snp.width)
+            make.bottom.equalTo(self.snp.bottom)
         }
     }
     
