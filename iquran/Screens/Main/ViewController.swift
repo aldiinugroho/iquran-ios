@@ -8,11 +8,11 @@
 import UIKit
 import SnapKit
 
+// MARK: CONTROLLER
 class ViewController: UIViewController {
     
-    let mview: UIView = {
-        let ctx = UIView()
-        ctx.backgroundColor = .cColorbasegray
+    let body: BodyMain = {
+        let ctx = BodyMain()
         return ctx
     }()
 
@@ -23,26 +23,48 @@ class ViewController: UIViewController {
         setuplayout()
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        setuplayoutTopSafeArea()
+    private func setuplayoutbase() {
+        self.view.backgroundColor = .cColorbasegreen
     }
     
     private func setuplayout() {
-        self.view.addSubview(mview)
+        self.view.addSubview(body)
+        body.snp.makeConstraints { make in
+            make.edges.equalTo(self.view)
+        }
+    }
+}
+
+// MARK: BODY
+class BodyMain: UIView {
+    
+    let ccheader: CHeaderTitle = {
+        let ctx = CHeaderTitle()
+        return ctx
+    }()
+    
+    let maindisplayer: MainDisplayer = MainDisplayer()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setuplayout()
     }
     
-    private func setuplayoutTopSafeArea() {
-        mview.snp.remakeConstraints { make in
-            let topEdgeInset: CGFloat = UIApplication.topSafeArea()
-            make.top.equalTo(self.view.snp.top).inset(UIEdgeInsets(top: topEdgeInset, left: 0, bottom: 0, right: 0))
-            make.bottom.equalTo(self.view.snp.bottom)
-            make.left.equalTo(self.view.snp.left)
-            make.right.equalTo(self.view.snp.right)
+    private func setuplayout() {
+        self.addSubview(ccheader)
+        ccheader.snp.makeConstraints { make in
+            make.top.equalTo(self.snp.top).inset(UIEdgeInsets(top: UIApplication.topSafeArea(), left: 0, bottom: 0, right: 0))
+            make.width.equalTo(self.snp.width)
+        }
+        self.addSubview(maindisplayer)
+        maindisplayer.snp.makeConstraints { make in
+            make.top.equalTo(ccheader.snp.bottom)
+            make.width.equalTo(self.snp.width)
+            make.height.equalTo(self.snp.width).multipliedBy(0.45)
         }
     }
     
-    private func setuplayoutbase() {
-        self.view.backgroundColor = .cColorbasegreen
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }
